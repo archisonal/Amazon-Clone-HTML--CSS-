@@ -11,24 +11,30 @@
     <!--HEADER-->
     <header>
         <div class="navbar">
-            <img src="Photos\amazon_logo.png" alt="logo">
-            <div id="searchbar">
-                <select name="Category" id="Category">
-                    <option value="All">All</option>
-                    <option value="Women">Women</option>
-                    <option value="Men">Men</option>
-                </select>
-                <!-- <button value="search">search</button> -->
+            <div class="nav-logo border">
+                <img src="Photos\amazon_logo.png" alt="logo">
             </div>
-            <p>Shop Mother's Day Gifts</p>
-            <address>
-                Deliver to: <br>Archi Sonal <br>Kalpana Hostel, CGC Landran
-            </address>
+            <div class="address border">
+                <p class="deliver-to">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <p class="country">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin">
+                <p><span>Hello, Sign in</span></p>
+                <p class="two">Account & Lists</p>
+            </div>
         </div>
     </header>
-    <!--FOOTER-->
-    <footer>
-        <p>Contact Us</p>
-    </footer>
 </body>
 </html>
