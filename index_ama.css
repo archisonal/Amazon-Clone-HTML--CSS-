@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*HEADER*/
+header{
+    background-color: #051118;
+}
+.navbar{
+    background-color: #051118;
+    border: 1px solid #051118;
+    display: flex;
+    justify-content: space-between;
+}
+#searchbar{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+#searchbar select{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(219, 214, 214);
+    font-size: small;
+    border-radius: 2px;
+}
+/* #searchbar button{
+    height:30px;
+} */
+.navbar img{
+    width: 150px;
+}
+.navbar p{
+    color: white;
+    font-family: monospace;
+    font-size: medium;
+    margin-top: 25px;
+}
+.navbar address{
+    color: white;
+    font-family: monospace;
+    font-size: medium;
+    font-style: italic;
+    margin-top: 25px;
+    display: block;
+}
+/*FOOTER*/
+footer{
+    background-color: #051118;
+    border: solid 1px #051118;
+}
+footer p{
+    color: white;
+}
