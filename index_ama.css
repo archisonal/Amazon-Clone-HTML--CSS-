@@ -74,6 +74,20 @@ header{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .span{
     font-size: 0.75rem;
+}
+.two{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
